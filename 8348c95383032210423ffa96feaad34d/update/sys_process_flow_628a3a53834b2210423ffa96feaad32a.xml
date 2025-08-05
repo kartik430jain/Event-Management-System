@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1792505_event_ma_event_task">status=not_started^EQ<item display_value="Not Started" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="not_started"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Not Started</label>
+        <name>not started</name>
+        <order>70</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 15:53:36</sys_created_on>
+        <sys_id>628a3a53834b2210423ffa96feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>not started</sys_name>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_update_name>sys_process_flow_628a3a53834b2210423ffa96feaad32a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 15:53:36</sys_updated_on>
+        <table>x_1792505_event_ma_event_task</table>
+    </sys_process_flow>
+</record_update>

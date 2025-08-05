@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Feedback Details" section_id="c20d999383832210423ffa96feaad36f" sys_domain="global" table="x_1792505_event_ma_feedback" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>feedback_id</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 13:10:51</sys_created_on>
+            <sys_id>624512d783872210423ffa96feaad3e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Feedback Details" display_value="Feedback Details" name="x_1792505_event_ma_feedback" sys_domain="global" view="Default view">c20d999383832210423ffa96feaad36f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 13:10:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attendee_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 13:10:51</sys_created_on>
+            <sys_id>ea4512d783872210423ffa96feaad3e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Feedback Details" display_value="Feedback Details" name="x_1792505_event_ma_feedback" sys_domain="global" view="Default view">c20d999383832210423ffa96feaad36f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 13:10:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 13:10:51</sys_created_on>
+            <sys_id>624512d783872210423ffa96feaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Feedback Details" display_value="Feedback Details" name="x_1792505_event_ma_feedback" sys_domain="global" view="Default view">c20d999383832210423ffa96feaad36f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 13:10:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 13:10:51</sys_created_on>
+            <sys_id>e64512d783872210423ffa96feaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Feedback Details" display_value="Feedback Details" name="x_1792505_event_ma_feedback" sys_domain="global" view="Default view">c20d999383832210423ffa96feaad36f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 13:10:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_id</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 13:10:51</sys_created_on>
+            <sys_id>6e4512d783872210423ffa96feaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Feedback Details" display_value="Feedback Details" name="x_1792505_event_ma_feedback" sys_domain="global" view="Default view">c20d999383832210423ffa96feaad36f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 13:10:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 13:10:51</sys_created_on>
+            <sys_id>e24512d783872210423ffa96feaad3e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Feedback Details" display_value="Feedback Details" name="x_1792505_event_ma_feedback" sys_domain="global" view="Default view">c20d999383832210423ffa96feaad36f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 13:10:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>feedback</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 13:10:51</sys_created_on>
+            <sys_id>6a4512d783872210423ffa96feaad3e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Feedback Details" display_value="Feedback Details" name="x_1792505_event_ma_feedback" sys_domain="global" view="Default view">c20d999383832210423ffa96feaad36f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 13:10:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Feedback Details</caption>
+            <header>false</header>
+            <name>x_1792505_event_ma_feedback</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 09:05:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c20d999383832210423ffa96feaad36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1792505_event_ma_feedback</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+            <sys_update_name>sys_ui_section_c20d999383832210423ffa96feaad36f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 09:05:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
