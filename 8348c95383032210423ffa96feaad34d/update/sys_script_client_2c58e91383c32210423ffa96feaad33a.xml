@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>rating</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name> Display a thank you message </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var rating = g_form.getValue('rating');
+	if(rating == 'excellent')
+	{
+		g_form.showFieldMsg('rating','Thankyou for the excellent rating','info');
+	}
+	else if(rating == 'good')
+	{
+		g_form.showFieldMsg('rating','We will do our best to provide you better services','info');
+	}
+	else if(rating == 'average')
+	{
+		g_form.showFieldMsg('rating','Please let us know your review in the comment section','info');
+	}
+	else if(rating == 'poor')
+	{
+		g_form.showFieldMsg('rating','We deeply regret your experience please write your problems in the comment section','error');
+	}
+
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 09:56:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c58e91383c32210423ffa96feaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Display a thank you message </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_update_name>sys_script_client_2c58e91383c32210423ffa96feaad33a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 09:56:53</sys_updated_on>
+        <table>x_1792505_event_ma_feedback</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

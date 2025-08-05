@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1792505_event_ma_event_task">status=in_progress^EQ<item display_value="In Progress" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="in_progress"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label> In Progress</label>
+        <name> in progress</name>
+        <order>80</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 15:54:20</sys_created_on>
+        <sys_id>99ba3253834b2210423ffa96feaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> in progress</sys_name>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_update_name>sys_process_flow_99ba3253834b2210423ffa96feaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 15:54:20</sys_updated_on>
+        <table>x_1792505_event_ma_event_task</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</application>
+        <file_path/>
+        <instance_id>2ff0c3d43bfb0a18a36804e0b5e45a0c</instance_id>
+        <instance_name>dev284155</instance_name>
+        <name>sys_process_flow_99ba3253834b2210423ffa96feaad3fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1792505_event_ma_event_task">status=in_progress^EQ<item display_value="In Progress" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="in_progress"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label> In Progress</label><name> in progress</name><order>80</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 15:54:20</sys_created_on><sys_id>99ba3253834b2210423ffa96feaad3fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name> in progress</sys_name><sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package><sys_policy/><sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope><sys_update_name>sys_process_flow_99ba3253834b2210423ffa96feaad3fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 15:54:20</sys_updated_on><table>x_1792505_event_ma_event_task</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>-1318932757</payload_hash>
+        <record_name> in progress</record_name>
+        <reverted_from/>
+        <source>2397321783c72210423ffa96feaad379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 15:54:20</sys_created_on>
+        <sys_id>d5ba3253834b2210423ffa96feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19875ca7a390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 15:54:20</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>d9ba3253fa4b22101e4e3bb7d0ea84fb</update_guid>
+        <update_guid_history>d9ba3253fa4b22101e4e3bb7d0ea84fb:-1318932757</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 15:58:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>0b4f6aca871d45b0867b0afe82ee4900</sys_id>
+        <sys_metadata>99ba3253834b2210423ffa96feaad3fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> in progress</sys_name>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_scope_delete display_value="">2f8fa716624340b6a18e86c6ebf29904</sys_scope_delete>
+        <sys_update_name>sys_process_flow_99ba3253834b2210423ffa96feaad3fa</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_99ba3253834b2210423ffa96feaad3fa">d5ba3253834b2210423ffa96feaad3fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 15:58:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
