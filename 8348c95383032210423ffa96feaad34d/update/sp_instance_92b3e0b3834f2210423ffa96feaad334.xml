@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">41b3ac73834f2210423ffa96feaad38f</sp_column>
+        <sp_widget display_value="Attendee Dashboard Widget">6df1a83f830f2210423ffa96feaad300</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 18:11:39</sys_created_on>
+        <sys_id>92b3e0b3834f2210423ffa96feaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_update_name>sp_instance_92b3e0b3834f2210423ffa96feaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 18:11:39</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=92b3e0b3834f2210423ffa96feaad334"/>
+</record_update>
