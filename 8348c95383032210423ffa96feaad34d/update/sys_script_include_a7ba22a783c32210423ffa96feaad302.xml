@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1792505_event_ma.AttendeeUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AttendeeUtils</name>
+        <script><![CDATA[var AttendeeUtils = Class.create();
+AttendeeUtils.prototype = {
+    initialize: function(eventid) {
+        this.eventid = eventid;
+    },
+	isRegistered:function(){
+		var attendee = new GlideRecord('x_1792505_event_ma_attendee');
+		attendee.addQuery('event_id',this.eventid);
+		attendee.query();
+		return attendee.hasNext();
+	},
+	getAttendee:function(id) {
+        var res = [];
+        var attendee = new GlideRecord('x_1792505_event_ma_attendee');
+        attendee.addQuery('attendee_id',id);
+        attendee.query();
+        if (attendee.next()) {
+            res.push({
+                id: attendee.getDisplayValue(),
+				firstname : attendee.getValue('first_name'),
+                lastname : attendee.getValue('last_name')
+            });
+		}
+        return JSON.stringify(res);
+        
+    },
+	getEventAttendee:function() {
+        var res = [];
+        var attendee = new GlideRecord('x_1792505_event_ma_attendee');
+        attendee.addQuery('event_id', this.eventid);
+        attendee.query();
+        if (attendee.next()) {
+            res.push({
+                id: attendee.getDisplayValue(),
+				firstname : attendee.getValue('first_name'),
+                lastname : attendee.getValue('last_name')
+            });}
+            return JSON.stringify(res);
+        
+    },
+
+	fetchAllAttendees: function() {
+        var res = [];
+        var gr = new GlideRecord('x_1792505_event_ma_attendee'); // Use your attendee table name
+        gr.query();
+        while (gr.next()) {
+            res.push({
+                number: gr.getValue('number'),
+                first_name: gr.getValue('first_name'),
+                last_name: gr.getValue('last_name'),
+                email: gr.getValue('email'),
+                status: gr.getDisplayValue('status')
+            });
+        }
+        return JSON.stringify(res);
+    },
+
+    type: 'AttendeeUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 09:28:01</sys_created_on>
+        <sys_id>a7ba22a783c32210423ffa96feaad302</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AttendeeUtils</sys_name>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_update_name>sys_script_include_a7ba22a783c32210423ffa96feaad302</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 18:03:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

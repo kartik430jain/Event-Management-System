@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1792505_event_ma.VenueUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>VenueUtils</name>
+        <script><![CDATA[var VenueUtils = Class.create();
+VenueUtils.prototype = {
+    initialize: function() {
+    },
+
+	fetchAllVenues: function() {
+        var res = [];
+        var gr = new GlideRecord('x_1792505_event_ma_venue'); // Use your actual venue table name
+        gr.query();
+        while (gr.next()) {
+            res.push({
+                number: gr.getValue('number'),
+                venue_name: gr.getValue('venue_name'),
+                address: gr.getValue('address'),
+                capacity: gr.getValue('capacity'),
+                contact_number: gr.getValue('contact_number')
+            });
+        }
+        return JSON.stringify(res);
+    },
+
+    type: 'VenueUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 18:07:27</sys_created_on>
+        <sys_id>5da2ac33834f2210423ffa96feaad3cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>VenueUtils</sys_name>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_update_name>sys_script_include_5da2ac33834f2210423ffa96feaad3cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 18:10:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

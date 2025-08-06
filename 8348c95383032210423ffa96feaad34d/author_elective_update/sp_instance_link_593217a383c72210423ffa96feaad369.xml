@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>user</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3b22d3a383c72210423ffa96feaad3e2</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 12:15:30</sys_created_on>
+        <sys_id>593217a383c72210423ffa96feaad369</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Register an Attendee</sys_name>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_update_name>sp_instance_link_593217a383c72210423ffa96feaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 12:16:18</sys_updated_on>
+        <title>Register an Attendee</title>
+        <type>url</type>
+        <url>https://dev284155.service-now.com/x_1792505_event_ma_event_attendee.do?sys_id=-1</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=593217a383c72210423ffa96feaad369"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</application>
+        <file_path/>
+        <instance_id>2ff0c3d43bfb0a18a36804e0b5e45a0c</instance_id>
+        <instance_name>dev284155</instance_name>
+        <name>sp_instance_link_593217a383c72210423ffa96feaad369</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;success&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;user&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;3b22d3a383c72210423ffa96feaad3e2&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-05 12:15:30&lt;/sys_created_on&gt;&lt;sys_id&gt;593217a383c72210423ffa96feaad369&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Register an Attendee&lt;/sys_name&gt;&lt;sys_package display_value="Event Management &amp;amp; Planning System" source="x_1792505_event_ma"&gt;8348c95383032210423ffa96feaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Management &amp;amp; Planning System"&gt;8348c95383032210423ffa96feaad34d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_593217a383c72210423ffa96feaad369&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-05 12:16:18&lt;/sys_updated_on&gt;&lt;title&gt;Register an Attendee&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;https://dev284155.service-now.com/x_1792505_event_ma_event_attendee.do?sys_id=-1&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=593217a383c72210423ffa96feaad369"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1798782642</payload_hash>
+        <record_name>Register an Attendee</record_name>
+        <reverted_from/>
+        <source>9499fa2783472210423ffa96feaad3f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 12:16:19</sys_created_on>
+        <sys_id>09621b6383c72210423ffa96feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1987a293a390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 12:16:19</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>8d621b63c3c72210e617c986f92ce658</update_guid>
+        <update_guid_history>8d621b63c3c72210e617c986f92ce658:-1798782642,dd3217a3b3c722104e967cc159d5f96a:-603784026</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Register an Attendee">8e935fe383c72210423ffa96feaad379</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 12:21:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>0394244049ed4abb803b056bfdbe9611</sys_id>
+        <sys_metadata>593217a383c72210423ffa96feaad369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register an Attendee</sys_name>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_scope_delete display_value="">2f8fa716624340b6a18e86c6ebf29904</sys_scope_delete>
+        <sys_update_name>sp_instance_link_593217a383c72210423ffa96feaad369</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_593217a383c72210423ffa96feaad369">09621b6383c72210423ffa96feaad359</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 12:21:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

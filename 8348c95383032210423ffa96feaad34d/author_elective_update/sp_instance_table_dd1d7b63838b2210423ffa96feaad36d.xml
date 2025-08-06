@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <display_field/>
+        <field_list>venue_name,contact_person,priority</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c41db727838b2210423ffa96feaad3c0</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 15:22:50</sys_created_on>
+        <sys_id>dd1d7b63838b2210423ffa96feaad36d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_update_name>sp_instance_table_dd1d7b63838b2210423ffa96feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 15:27:52</sys_updated_on>
+        <table>x_1792505_event_ma_venue</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=dd1d7b63838b2210423ffa96feaad36d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</application>
+        <file_path/>
+        <instance_id>2ff0c3d43bfb0a18a36804e0b5e45a0c</instance_id>
+        <instance_name>dev284155</instance_name>
+        <name>sp_instance_table_dd1d7b63838b2210423ffa96feaad36d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>success</color><css/><display_field/><field_list>venue_name,contact_person,priority</field_list><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">c41db727838b2210423ffa96feaad3c0</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-05 15:22:50</sys_created_on><sys_id>dd1d7b63838b2210423ffa96feaad36d</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package><sys_policy/><sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope><sys_update_name>sp_instance_table_dd1d7b63838b2210423ffa96feaad36d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-05 15:27:52</sys_updated_on><table>x_1792505_event_ma_venue</table><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=dd1d7b63838b2210423ffa96feaad36d"/></record_update>]]></payload>
+        <payload_hash>1984650201</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9499fa2783472210423ffa96feaad3f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 15:27:52</sys_created_on>
+        <sys_id>5f3efba7838b2210423ffa96feaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1987ad89bec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 15:27:52</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>d33efba7f98b2210e8b90296feb2f50f</update_guid>
+        <update_guid_history>d33efba7f98b2210e8b90296feb2f50f:1984650201,7b8dfb67f18b22104507f539bc83e9ed:1570542231,551d7b634c8b221026f48cb4323f586f:-1958205167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e1b890bf83cb2210423ffa96feaad30e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 17:23:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>09bc8a18d4674060808e7f301f398344</sys_id>
+        <sys_metadata>dd1d7b63838b2210423ffa96feaad36d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Management &amp; Planning System" source="x_1792505_event_ma">8348c95383032210423ffa96feaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp; Planning System">8348c95383032210423ffa96feaad34d</sys_scope>
+        <sys_scope_delete display_value="">2f8fa716624340b6a18e86c6ebf29904</sys_scope_delete>
+        <sys_update_name>sp_instance_table_dd1d7b63838b2210423ffa96feaad36d</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_dd1d7b63838b2210423ffa96feaad36d">5f3efba7838b2210423ffa96feaad30f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 17:23:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
